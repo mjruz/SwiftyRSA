@@ -17,7 +17,6 @@
 		90EBFC8A26AC32B3002B30E9 /* swiftyrsa-public-base64-X509-format.txt in Resources */ = {isa = PBXBuildFile; fileRef = 90EBFC8726AC32B2002B30E9 /* swiftyrsa-public-base64-X509-format.txt */; };
 		9737218D272A05D100D988A7 /* SwiftyRSAErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737218C272A05D100D988A7 /* SwiftyRSAErrorTests.swift */; };
 		9737218E272A05D100D988A7 /* SwiftyRSAErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9737218C272A05D100D988A7 /* SwiftyRSAErrorTests.swift */; };
-		B0981AE770653C8FE25311592E2BCE5E /* SwiftyRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB44E2E8BE22C702325440A0F96410A /* SwiftyRSA.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9B4E2EB8252D8A0B0085F2B9 /* Data+SHA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E2EB7252D8A0B0085F2B9 /* Data+SHA.swift */; };
 		9B4E2EB9252D8A0B0085F2B9 /* Data+SHA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E2EB7252D8A0B0085F2B9 /* Data+SHA.swift */; };
 		9B4E2EBA252D8A0B0085F2B9 /* Data+SHA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E2EB7252D8A0B0085F2B9 /* Data+SHA.swift */; };
@@ -89,6 +88,7 @@
 		C0E83E051ECD7DC400E9D63C /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E83E041ECD7DC400E9D63C /* PrivateKey.swift */; };
 		C0E83E091ECD7F3000E9D63C /* ClearMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E83E081ECD7F3000E9D63C /* ClearMessage.swift */; };
 		C0E83E0D1ECD7F4200E9D63C /* EncryptedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E83E0C1ECD7F4200E9D63C /* EncryptedMessage.swift */; };
+		EA5D3A472BDB4C560080ED0A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EA5D3A462BDB4C310080ED0A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +151,7 @@
 		C0E83E041ECD7DC400E9D63C /* PrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
 		C0E83E081ECD7F3000E9D63C /* ClearMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearMessage.swift; sourceTree = "<group>"; };
 		C0E83E0C1ECD7F4200E9D63C /* EncryptedMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptedMessage.swift; sourceTree = "<group>"; };
+		EA5D3A462BDB4C310080ED0A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		EF193719CB8D4DDE8D347FF699311D1D /* swiftyrsa-private.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "swiftyrsa-private.pem"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -285,6 +286,7 @@
 		E64764973D14B1FBBFB2CE3C0E1BAE8A = {
 			isa = PBXGroup;
 			children = (
+				EA5D3A462BDB4C310080ED0A /* PrivacyInfo.xcprivacy */,
 				2E9BA9B6A0F26B6E10630895F0FF31B0 /* Linked Frameworks */,
 				345E780D70779A01AA3BAA5CB4CE6558 /* Products */,
 				93F299DFFB42687BDAA5C1E7ADCC955B /* Source */,
@@ -470,6 +472,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5D3A472BDB4C560080ED0A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
